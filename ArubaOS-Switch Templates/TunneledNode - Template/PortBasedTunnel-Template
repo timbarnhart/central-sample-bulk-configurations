@@ -60,6 +60,7 @@ no dhcp config-file-update
 no dhcp image-file-update
 no dhcp tr69-acs-url
 device-profile name "ARUBA-AP"
+   no allow-tunneled-node
    untagged-vlan 100
    tagged-vlan 177
    allow-jumbo-frames
